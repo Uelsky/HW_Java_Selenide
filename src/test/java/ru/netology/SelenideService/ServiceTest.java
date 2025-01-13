@@ -43,7 +43,7 @@ public class ServiceTest {
         $("[data-test-id=city] input").setValue("Санкт-Петербург");
         $("[data-test-id=date] input").doubleClick().sendKeys(date);
         $("[data-test-id=name] input").setValue("Смирнов Василий");
-        $("[data-test-id=phone] input").setValue("+7926345");
+        $("[data-test-id=phone] input").setValue("+79263451212");
         $("[data-test-id=agreement]").click();
         $$("button").find(exactText("Забронировать")).click();
         $(byText("Успешно!")).shouldBe(visible, Duration.ofMillis(15000));
@@ -58,7 +58,7 @@ public class ServiceTest {
         $("[data-test-id=city] input").setValue("Москва");
         //$(byText("Выберите дату встречи с представителем банка")).click();
         $("[data-test-id=date] input").doubleClick().sendKeys(date);
-        $("[data-test-id=name] input").setValue("asdfasf");
+        $("[data-test-id=name] input").setValue("Смирнов Василий");
         $("[data-test-id=phone] input").setValue("+79263451212");
         //$x("//*[text()='Я соглашаюсь с условиями обработки и использования моих персональных данных']").click();
         $("[data-test-id=agreement]").click();
@@ -72,7 +72,7 @@ public class ServiceTest {
     void shouldDoubleSurnameTest() {
         String date = setLocalDate(3);
         open("http://localhost:9999");
-        $("[data-test-id=city] input").setValue("Сева");
+        $("[data-test-id=city] input").setValue("Севастополь");
         //$(byText("Выберите дату встречи с представителем банка")).click();
         $("[data-test-id=date] input").doubleClick().sendKeys(date);
         $("[data-test-id=name] input").setValue("Смирнов-Пупкин Василий");
