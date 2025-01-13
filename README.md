@@ -1,4 +1,4 @@
-# Домашнее задание к занятию «2.2. Selenide»
+# Домашнее задание к занятию «2.2. Selenide» [![Build status](https://ci.appveyor.com/api/projects/status/b1f7gfxw93af0a8a?svg=true)](https://ci.appveyor.com/project/Uelsky/hw-java-selenide)
 
 В качестве результата пришлите ссылку на ваш GitHub-проект в личном кабинете студента на сайте [netology.ru](https://netology.ru).
 
